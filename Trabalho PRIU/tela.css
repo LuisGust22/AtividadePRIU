@@ -1,4 +1,7 @@
 @media only screen and (max-width: 1570px) and (min-width: 769px){
+    #siteName{
+        font-style: italic;
+    }
     body{
         background-color: black;
         color: white;
@@ -10,24 +13,46 @@
         background-color: white;
         height: 1550px;
         width: 1349px;
+
     }
-    #topo{
+    #barraBusca{
         height: 40px;
+        width: 600px;
+        margin-bottom: 5px;
+        margin-top: -400px;
     }
     button{
         background-color: #1a1a1a;
         color: white;
         border-radius: 25px;
     }
+    #lupa{
+        width: 40px;
+        height: 40px;
+    }
+    #square{
+        margin-top: 60px;
+        margin-bottom: -70px;
+        border-radius: 0px;
+        padding: 1px;
+    }
     nav{
-        align-items: auto;
+        text-align: left;
+        margin-top: -150px;
+        margin-bottom: 30px;
+        margin-left: 200px;
     }
     header{
-        align-content: left;
-        text-align: center;
+        text-align: left;
     }
     img{
-        width: 300px;
-        height: 500px;
+        padding: 10px;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 2px;
+        border:3px solid black;
+        width: 150px;
+        height: 250px;
     }
+    
 }
