@@ -14,7 +14,7 @@
     #corpo{
         background-color: white;
         height: 1550px;
-        width: 1349px;
+        width: 135%;
 
     }
     #barraBusca{
@@ -61,6 +61,16 @@
         border:3px solid black;
         width: 150px;
         height: 250px;
+    }
+    #plus{
+        border-radius: 100px;
+        width: 70px;
+        height: 70px;
+        background-color: black;
+        margin-right: 1%;
+    }
+    footer{
+        text-align: right;
     }
     
 }
@@ -126,6 +136,15 @@
         border:3px solid black;
         width: 290.2px;
         height:350px;
+    }
+    #plus{
+        width: 80px;
+        height: 80px;
+        border-radius: 100px;
+        background-color: black;
+    }
+    footer{
+        text-align: right;
     }
     
 }
